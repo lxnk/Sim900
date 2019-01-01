@@ -1,0 +1,43 @@
+#######################################
+# Syntax Coloring Map for Sim900
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Sim900	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+end	KEYWORD2
+read	KEYWORD2
+write	KEYWORD2
+available	KEYWORD2
+isListening	KEYWORD2
+overflow	KEYWORD2
+flush	KEYWORD2
+listen	KEYWORD2
+peek	KEYWORD2
+setTimeDelay	KEYWORD2
+readBytesUntil	KEYWORD2
+readResponse	KEYWORD2
+getResponse	KEYWORD2
+getURCResponse	KEYWORD2
+accepted	KEYWORD2
+isOn	KEYWORD2
+powerReset	KEYWORD2
+powerOn	KEYWORD2
+powerToggle	KEYWORD2
+gprsOn	KEYWORD2
+gprsOff	KEYWORD2
+getIP	KEYWORD2
+sendEmail	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
