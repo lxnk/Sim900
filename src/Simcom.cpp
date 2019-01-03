@@ -1,5 +1,5 @@
 /*
-Sim900.cpp -
+Simcom.cpp -
 DESCRIPTION
 */
 
@@ -23,7 +23,7 @@ DESCRIPTION
 //#include <util/delay_basic.h>
 #include <SPI.h>
 #include <SD.h>
-#include <Sim900.h>
+#include "Simcom.h"
 
 
 
@@ -63,7 +63,7 @@ DESCRIPTION
         BODY
 Body of the email
 
-with new lines.\nMustend with\x1A
+with new lines.\nMust end with\x1A
         FILE=2,\"filename.ext\",1\r
  
  

@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-Sim900	KEYWORD1
+Simcom	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)

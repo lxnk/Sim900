@@ -1,10 +1,10 @@
 /*
-Sim900.h -
+Simcom.h -
 DESCRIPTION
 */
 
-#ifndef Sim900_h
-#define Sim900_h
+#ifndef SIMCOM_H
+#define SIMCOM_H
 
 //#include <inttypes.h>
 #include <SoftwareSerial.h>
