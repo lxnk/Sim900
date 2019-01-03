@@ -43,7 +43,7 @@ protected:
     uint8_t _powerPin;
     uint8_t _resetPin;
   //  unsigned long _timeDelay;
-  // private methods
+
     
     
 public:
@@ -109,6 +109,7 @@ public:
                    bool binary,
                    unsigned long smtpTimeout);
     
+    // protected methods
 protected:
     
     int base64encode( byte * a3, char * a4, int len = 3);

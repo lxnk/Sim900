@@ -164,7 +164,7 @@ int Sim900::getResponse(void)
 
 
 // For correct processing of the response +SMTPSEND: 1
-// one has to put c=0 i.e. call getURCResponse(0, ...)
+// one has to put c=0 (string termination) i.e. call getURCResponse(0, ...)
 
 int Sim900::getURCResponse(char c, unsigned long extraTimeout)
 {
@@ -286,9 +286,9 @@ void Sim900::powerReset(void)
     // generate reset pulse
     
     digitalWrite(_resetPin, HIGH);
-    delay(1100);
+    delay(50);
     digitalWrite(_resetPin, LOW);
-    delay(2300);
+    delay(1300);
 }
 
 
